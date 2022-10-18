@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <meta name="keywords" content="assignment, Html, courses, learning">
+        <meta name="decription" content="Learning Html">
+        <title>Learning HTML</title>
+    </head>
+    <body>
+        <h1>Welcome to our Forms</h1>
+        <form action="https://www.w3schools.com/" method="post">
+            User Name : 
+            <input type="text" name="userName" maxlength="8" placeholder="Enter the User Name"/><br><hr>
+
+            Password : 
+            <input type="password" name="password" maxlength="8" placeholder="Enter the Password"/><br><hr>
+
+            Enter your Commends :<br><br>
+            <textarea rows="5" cols="50" name="commend" placeholder="Enter your Commend"></textarea><br><hr>
+
+            Select the checkboxes :
+            <input type="checkbox" name="maths" value="on" checked>Maths
+            <input type="checkbox" name="science" value="on">Science
+            <input type="checkbox" name="computer" value="on">Computer
+            <br><hr>
+
+            Select Your Gender :
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <br><hr>
+
+            Drop down List :
+            <select name="dropdown">
+                <option value="maths" selected>Maths</option>
+                <option value="science">Science</option>
+                <option value="computer">Computer</option>
+            </select>
+            <br><hr>
+
+            Buttons : <br>
+            <input type="text" name="btn_sample"/>
+            <input type="submit" name="submit" value="Submit"/><br><br>
+            <input type="reset" name="reset" value="Reset"/><br><br>
+            <input type="button" name="ok" value="OK"/><br><br>
+            <input type="image" name="imgbutton" src="./img/flower.jpg" width="75"/><br><hr>
+
+            File Upload :
+            <input type="file" name="fileupload" accept="image/*" />
+
+        </form>
+    </body>
+</html>
